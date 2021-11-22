@@ -2,7 +2,7 @@ jira-apache-downloader
 ======================
 This is a tool that allows retrieving Jira issue tracking data from the [Apache Jira server](https://issues.apache.org/jira/rest/api/2/).
 It is based on the JIDownloader tool (available [here](https://github.com/thdiaman/JIDownloader)), and is part of the paper
-`Jira Issue Tracking Data of Apache Software Foundation` that has been submitted. The dataset is available in [this link](https://www.dropbox.com/sh/piv1cj1jrbonjst/AAC0SI2MCm2rPuKCj2n0MIVia?dl=0).
+`Jira Issue Tracking Data of Apache Software Foundation` that has been submitted. The dataset is available in [this link](https://zenodo.org/record/5665896).
 
 Prerequisites
 -------------
@@ -34,12 +34,12 @@ parameter `use_database` to `"mongo"`. The `database_host_and_port` must also be
 
 Citation information
 --------------------
-If your use this tool or the corresponding dataset in your work, you can cite it using the following bibtext entry:
+If your use this tool or the corresponding dataset in your work, you can cite it using the following bibtex entry:
 
 ```
 @unpublished{JiraApacheData,
   author = {Themistoklis Diamantopoulos and Andreas Symeonidis},
-  title = {Jira Issue Tracking Data of Apache Software Foundation},
+  title = {Jira Issue Tracking Data from the Apache Software Foundation projects},
   year = {2021},
   note = {Paper submitted}
 }
