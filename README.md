@@ -39,7 +39,7 @@ If your use this tool or the corresponding dataset in your work, you can cite it
 ```
 @unpublished{JiraApacheData,
   author = {Themistoklis Diamantopoulos, Dimitrios Nastos and Andreas Symeonidis},
-  title = {Jira Issue Tracking Data with Semantic Topics},
+  title = {Semantically-enriched Jira Issue Tracking Data},
   year = {2023},
   note = {Paper submitted}
 }
