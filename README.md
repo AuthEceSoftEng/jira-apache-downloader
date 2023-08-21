@@ -2,7 +2,7 @@ jira-apache-downloader
 ======================
 This is a tool that allows retrieving Jira issue tracking data from the [Apache Jira server](https://issues.apache.org/jira/rest/api/2/).
 It is based on the JIDownloader tool (available [here](https://github.com/thdiaman/JIDownloader)), and is part of the paper
-`Jira Issue Tracking Data of Apache Software Foundation` that has been submitted. The dataset is available in [this link](https://zenodo.org/record/5665896).
+`Jira Issue Tracking Data of Apache Software Foundation` that has been submitted. The dataset is available in [this link](https://doi.org/10.5281/zenodo.5665895).
 
 Prerequisites
 -------------
