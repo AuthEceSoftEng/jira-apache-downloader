@@ -2,7 +2,8 @@ jira-apache-downloader
 ======================
 This is a tool that allows retrieving Jira issue tracking data from the [Apache Jira server](https://issues.apache.org/jira/rest/api/2/).
 It is based on the JIDownloader tool (available [here](https://github.com/thdiaman/JIDownloader)), and is part of the paper
-`Jira Issue Tracking Data of Apache Software Foundation` that has been submitted. The dataset is available in [this link](https://doi.org/10.5281/zenodo.5665895).
+`Semantically-enriched Jira Issue Tracking Data` that has been submitted to the IEEE/ACM 20th International Conference on Mining Software Repositories.
+The dataset is available in [this link](https://doi.org/10.5281/zenodo.5665895).
 
 Prerequisites
 -------------
@@ -37,11 +38,14 @@ Citation information
 If your use this tool or the corresponding dataset in your work, you can cite it using the following bibtex entry:
 
 ```
-@unpublished{JiraApacheData,
-  author = {Themistoklis Diamantopoulos, Dimitrios-Nikitas Nastos and Andreas Symeonidis},
+@inproceedings{SemanticJiraDatasetMSR2023,
+  author = {Themistoklis Diamantopoulos and Dimitrios-Nikitas Nastos and Andreas Symeonidis},
   title = {Semantically-enriched Jira Issue Tracking Data},
+  booktitle = {IEEE/ACM 20th International Conference on Mining Software Repositories},
   year = {2023},
-  note = {Paper submitted}
+  pages = {218-222},
+  address = {Melbourne, Australia},
+  doi = {10.1109/MSR59073.2023.00039}
 }
 ```
 
