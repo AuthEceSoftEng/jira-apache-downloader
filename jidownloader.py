@@ -1,7 +1,7 @@
 import os
 import sys
 import traceback
-from datetime import datetime
+from datetime import datetime, UTC
 from logger.downloadlogger import Logger
 from datamanager.dbmanager import DBManager
 from datamanager.mongomanager import MongoDBManager
@@ -41,7 +41,7 @@ def download_project(project_name):
 		print("Project last crawled: " + (str(last_crawled) if last_crawled else "never") + " (crawl " + ("successful" if last_crawl_complete else "unsuccesful") + ")")
 		print("Project last updated: " + (str(project.last_updated()) if project.last_updated() else "never"))
 
-	crawldatetime = datetime.utcnow().replace(microsecond=0)
+	crawldatetime = datetime.now(UTC).replace(microsecond=0)
 	try:
 		fieldids, fieldtypes = get_issue_fields(jd, project_custom_fields_api_address)
 
