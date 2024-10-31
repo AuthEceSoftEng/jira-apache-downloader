@@ -17,6 +17,12 @@ class MongoDBManager(DatabaseManager, FileManager):
 		"""
 		Initializes this DB manager.
 		"""
+		self._create_new_connection()
+
+	def _create_new_connection(self):
+		"""
+		Creates a new client connection.
+		"""
 		self.client = pymongo.MongoClient(database_host_and_port)
 		self.db = self.client["jidata"]
 		self.projects = self.db["projects"]
@@ -103,6 +109,7 @@ class MongoDBManager(DatabaseManager, FileManager):
 		project["info"]["lastcrawled"] = crawldatetime
 		self.projects.update_one({"_id": project["info"]["_id"]}, {"$set": project["info"]}, upsert = True)
 		self.client.close()
+		self._create_new_connection()
 
 	def write_project_info_to_disk(self, project_name, info):
 		"""
