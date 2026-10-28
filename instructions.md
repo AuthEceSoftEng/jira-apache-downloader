@@ -63,18 +63,18 @@ Run the following commands to instantiate the db:
 
 ```
 mkdir dump
-wget -O dump/commits.bson.gz https://zenodo.org/record/5665896/files/comments.bson.gz?download=1
-wget -O dump/comments.metadata.json.gz https://zenodo.org/record/5665896/files/comments.metadata.json.gz?download=1
-wget -O dump/events.bson.gz https://zenodo.org/record/5665896/files/events.bson.gz?download=1
-wget -O dump/events.metadata.json.gz https://zenodo.org/record/5665896/files/events.metadata.json.gz?download=1
-wget -O dump/issues.bson.gz https://zenodo.org/record/5665896/files/issues.bson.gz?download=1
-wget -O dump/issues.metadata.json.gz https://zenodo.org/record/5665896/files/issues.metadata.json.gz?download=1
-wget -O dump/projects.bson.gz https://zenodo.org/record/5665896/files/projects.bson.gz?download=1
-wget -O dump/projects.metadata.json.gz https://zenodo.org/record/5665896/files/projects.metadata.json.gz?download=1
-wget -O dump/users.bson.gz https://zenodo.org/record/5665896/files/users.bson.gz?download=1
-wget -O dump/users.metadata.json.gz https://zenodo.org/record/5665896/files/users.metadata.json.gz?download=1
-wget -O dump/worklogs.bson.gz https://zenodo.org/record/5665896/files/worklogs.bson.gz?download=1
-wget -O dump/worklogs.metadata.json.gz https://zenodo.org/record/5665896/files/worklogs.metadata.json.gz?download=1
-mongorestore -h localhost:27017 -d gddata -u ADMINNAME -p ADMINPASSWORD --gzip dump/
+wget -O dump/comments.bson.gz https://zenodo.org/record/14253918/files/comments.bson.gz?download=1
+wget -O dump/comments.metadata.json.gz https://zenodo.org/record/14253918/files/comments.metadata.json.gz?download=1
+wget -O dump/events.bson.gz https://zenodo.org/record/14253918/files/events.bson.gz?download=1
+wget -O dump/events.metadata.json.gz https://zenodo.org/record/14253918/files/events.metadata.json.gz?download=1
+wget -O dump/issues.bson.gz https://zenodo.org/record/14253918/files/issues.bson.gz?download=1
+wget -O dump/issues.metadata.json.gz https://zenodo.org/record/14253918/files/issues.metadata.json.gz?download=1
+wget -O dump/projects.bson.gz https://zenodo.org/record/14253918/files/projects.bson.gz?download=1
+wget -O dump/projects.metadata.json.gz https://zenodo.org/record/14253918/files/projects.metadata.json.gz?download=1
+wget -O dump/users.bson.gz https://zenodo.org/record/14253918/files/users.bson.gz?download=1
+wget -O dump/users.metadata.json.gz https://zenodo.org/record/14253918/files/users.metadata.json.gz?download=1
+wget -O dump/worklogs.bson.gz https://zenodo.org/record/14253918/files/worklogs.bson.gz?download=1
+wget -O dump/worklogs.metadata.json.gz https://zenodo.org/record/14253918/files/worklogs.metadata.json.gz?download=1
+mongorestore -h localhost:27017 -d jidata -u ADMINNAME -p ADMINPASSWORD --authenticationDatabase admin --gzip dump/
 ```
 
