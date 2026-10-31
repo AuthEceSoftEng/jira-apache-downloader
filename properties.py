@@ -22,4 +22,5 @@ dataFolderPath = 'data' # Set this to the folder where data are downloaded
 
 # Database settings
 database_host_and_port = "mongodb://USERNAME:PASSWORD@HOSTNAME:PORT/"  # change this to the hostname and port of your database
+database_name = "jidata" # the name of the MongoDB database where data are stored (must be set)
 num_bulk_operations = 1000 # set the number of operations that are sent as a bulk to the database

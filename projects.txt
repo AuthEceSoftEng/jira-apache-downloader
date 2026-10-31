@@ -1,9 +1,9 @@
-AAR;aardvark;4
+AAR;aardvark;7
 ABDERA;Abdera;311
 ACCUMULO;Accumulo;4745
 ACE;ACE;539
 ACL;ActiveCluster;5
-AMQ;ActiveMQ (Read-Only);8486
+AMQ;ActiveMQ (Read-Only);8485
 AMQNET;ActiveMQ .Net;655
 APLO;ActiveMQ Apollo (Retired);406
 AMQCPP;ActiveMQ C++ Client;662
@@ -17,7 +17,7 @@ AIRAVATA;Airavata;3730
 ALOIS;ALOIS;13
 ARMI;AltRMI;6
 AMATERASU;AMATERASU;84
-AMBARI;Ambari;26300
+AMBARI;Ambari;26351
 AMBER;Amber;0
 ANAKIA;Anakia;8
 AGE2;Apache AGE;98
@@ -25,27 +25,27 @@ AGEOLD;Apache AGE (old);64
 ANY23;Apache Any23 (Retired);574
 APEXCORE;Apache Apex Core;782
 APEXMALHAR;Apache Apex Malhar;2041
-ARROW;Apache Arrow;18291
-ASTERIXDB;Apache AsterixDB;3781
-AVRO;Apache Avro;4258
+ARROW;Apache Arrow;18289
+ASTERIXDB;Apache AsterixDB;3968
+AVRO;Apache Avro;4346
 AWF;Apache AWF (Retired);244
 BLUEMARLIN;Apache BlueMarlin (Retired);9
 BLUR;Apache Blur;450
-CASSANDRA;Apache Cassandra;21252
-CASSANALYTICS;Apache Cassandra Analytics;174
-CASSCPP;Apache Cassandra C/C++ driver;13
-CASSGO;Apache Cassandra Go driver;128
-CASSJAVA;Apache Cassandra Java driver;123
-CASSNODEJS;Apache Cassandra NodeJS Driver;13
-CASSPYTHON;Apache Cassandra Python driver;26
-CELEBORN;Apache Celeborn;2370
+CASSANDRA;Apache Cassandra;21583
+CASSANALYTICS;Apache Cassandra Analytics;213
+CASSCPP;Apache Cassandra C/C++ driver;25
+CASSGO;Apache Cassandra Go driver;137
+CASSJAVA;Apache Cassandra Java driver;136
+CASSNODEJS;Apache Cassandra NodeJS Driver;17
+CASSPYTHON;Apache Cassandra Python driver;33
+CELEBORN;Apache Celeborn;2503
 CHAINSAW;Apache Chainsaw;50
 CMDA;Apache Climate Model Diagnostic Analyzer;19
 CLOUDBERRY;Apache Cloudberry;1
 COMMONSSITE;Apache Commons All;156
 COMMONSRDF;Apache Commons RDF;78
 TESTING;Apache Commons Testing;14
-COMMONSXML;Apache Commons XML;7
+COMMONSXML;Apache Commons XML;22
 CONCERTED;Apache Concerted;23
 CORAL;Apache Coral;23
 CB;Apache Cordova;14005
@@ -55,16 +55,16 @@ DATALAB;Apache DataLab (Retired);2577
 DATASKETCHES;Apache Datasketches;13
 DIRECTMEMORY;Apache DirectMemory;139
 DORIS;Apache Doris;4
-DRILL;Apache Drill;8503
+DRILL;Apache Drill;8515
 DUBBO;Apache Dubbo;148
 ECHARTS;Apache ECharts;19
 EVENTMESH;Apache EventMesh;9
-FINERACT;Apache Fineract;2655
+FINERACT;Apache Fineract;2992
 FLEX;Apache Flex;35395
-FREEMARKER;Apache Freemarker;233
+FREEMARKER;Apache Freemarker;235
 GEARPUMP;Apache Gearpump;368
 GLUTEN;Apache Gluten (incubating);4
-GOBBLIN;Apache Gobblin;2265
+GOBBLIN;Apache Gobblin;2269
 GORA;Apache Gora (Retired);667
 HAWQ;Apache HAWQ (Retired);1837
 HELIX;Apache Helix;863
@@ -75,7 +75,7 @@ HUDI;Apache Hudi;9766
 INLONG;Apache InLong;802
 IOTDB;Apache IoTDB;6340
 JENA;Apache Jena;2352
-KNOX;Apache Knox;3366
+KNOX;Apache Knox;3529
 LENS;Apache Lens (Retired);1451
 LIMINAL;Apache Liminal (Retired);100
 CLOWNFISH;Apache Lucy-Clownfish;120
@@ -87,26 +87,26 @@ METAMODEL;Apache MetaModel (Retired);400
 MXNET;Apache MXNet (Retired);1404
 NEMO;Apache Nemo (Retired);487
 NETBEANSINFRA;Apache NetBeans Infra;277
-NIFI;Apache NiFi;16019
+NIFI;Apache NiFi;16467
 MINIFI;Apache NiFi MiNiFi - MOVED TO NIFI PROJECT;241
-MINIFICPP;Apache NiFi MiNiFi C++;2848
+MINIFICPP;Apache NiFi MiNiFi C++;2924
 NUTTX;Apache NuttX;26
 OLTU;Apache Oltu;216
 ONAMI;Apache Onami;118
 CLIMATE;Apache Open Climate Workbench (Retired);973
 OPENAZ;Apache OpenAZ (Retired);24
 OTAVA;Apache Otava (incubating);3
-HDDS;Apache Ozone;15672
+HDDS;Apache Ozone;17465
 PEGASUS;Apache Pegasus;11
-PETRI;Apache Petri;0
+PETRI;Apache Petri (Retired);0
 PINOT;Apache Pinot;16
 PLC4X;Apache PLC4X;351
 QPIDIT;Apache QPID Interoperability Test Suite;139
 QUICKSTEP;Apache Quickstep;128
-RAT;Apache RAT;562
+RAT;Apache RAT;578
 RIPPLE;Apache Ripple;106
 ROCKETMQ;Apache RocketMQ;384
-ROL;Apache Roller;2143
+ROL;Apache Roller;2146
 S4;Apache S4 (Retired);179
 SDAP;Apache Science Data Analytics Platform;527
 SCIMPLE;Apache SCIMple;95
@@ -117,26 +117,26 @@ STREAMPARK;Apache StreamPark;0
 SUBMARINE;Apache Submarine;1415
 SUPERSETSEC;Apache Superset security;0
 TAVERNA;Apache Taverna (Retired);1063
-TENTACLES;Apache Tentacles;25
-TEZ;Apache Tez;4715
+TENTACLES;Apache Tentacles;26
+TEZ;Apache Tez;4741
 MTOMCAT;Apache Tomcat Maven Plugin;320
 TRAFODION;Apache Trafodion (Retired);3337
 TRAINING;Apache Training;41
 TWILL;Apache Twill (Retired);271
-UNOMI;Apache Unomi;945
+UNOMI;Apache Unomi;1015
 WAYANG;Apache Wayang;56
 WHIRR;Apache Whirr (retired);754
 WHISKER;Apache Whisker;33
-YUNIKORN;Apache YuniKorn;3298
+YUNIKORN;Apache YuniKorn;3517
 ZIPKIN;Apache Zipkin;1
-APISIX;APISIX;39
+APISIX;APISIX;40
 MRM;Archiva (Retired);2018
 ARIA;AriaTosca;427
-ARIES;Aries;2228
-ARTEMIS;Artemis;6023
+ARIES;Aries;2231
+ARTEMIS;Artemis;6212
 ASYNCWEB;Asyncweb;45
-ATLAS;Atlas;5281
-ATTIC;Attic;248
+ATLAS;Atlas;5378
+ATTIC;Attic;249
 AURORA;Aurora;1970
 AVALON;Avalon;7
 AVNSHARP;Avalon Castle;6
@@ -146,32 +146,32 @@ CENTRAL;Avalon Metro Central;19
 PLANET;Avalon Metro Planet;1
 TOOLS;Avalon Metro Tools;3
 PNIX;Avalon Phoenix;58
-AXIOM;Axiom;523
+AXIOM;Axiom;525
 AXIS;Axis;2923
 AXISCPP;Axis-C++;1087
 WSIF;Axis-WSIF;94
-AXIS2;Axis2;6003
+AXIS2;Axis2;6005
 TRANSPORTS;Axis2 Transports;5
 AXIS2C;Axis2-C;1696
 BAHIR;Bahir (Retired);324
-BATCHEE;BatchEE;197
-BATIK;Batik;1393
+BATCHEE;BatchEE;200
+BATIK;Batik;1399
 BEAM;Beam;14551
 BEEHIVE;Beehive;1231
-BIGTOP;Bigtop;4525
+BIGTOP;Bigtop;4544
 BLUESKY;Bluesky;10
 BOOKKEEPER;Bookkeeper;1095
 TM;BRAND;5
 BROOKLYN;Brooklyn;634
 BUILDR;Buildr (Retired);735
-BVAL;BVal;197
+BVAL;BVal;202
 STDCXX;C++ Standard Library;1062
 CACTUS;Cactus;275
-CALCITE;Calcite;7627
-CAMEL;Camel;23833
+CALCITE;Calcite;7889
+CAMEL;Camel;26308
 CARBONDATA;CarbonData;4347
-CAUSEWAY;Causeway;4026
-CAY;Cayenne;2957
+CAUSEWAY;Causeway;4059
+CAY;Cayenne;3053
 CELIX;Celix;469
 CS;Central Services;13
 CMIS;Chemistry (Retired);1097
@@ -182,63 +182,63 @@ CLKE;Click Eclipse;47
 CLOUDSTACK;CloudStack;10353
 COCOON;Cocoon (Retired);2367
 COCOON3;Cocoon 3 (Retired) (Retired) (Retired);132
-GSOC;Comdev GSOC;331
+GSOC;Comdev GSOC;332
 ATTRIBUTES;Commons Attributes;13
-BCEL;Commons BCEL;361
-BEANUTILS;Commons BeanUtils;578
+BCEL;Commons BCEL;362
+BEANUTILS;Commons BeanUtils;579
 BETWIXT;Commons Betwixt;73
 BSF;Commons BSF;46
 CHAIN;Commons Chain;113
 CLI;Commons CLI;355
-CODEC;Commons Codec;339
-COLLECTIONS;Commons Collections;834
-COMPRESS;Commons Compress;724
-CONFIGURATION;Commons Configuration;851
+CODEC;Commons Codec;343
+COLLECTIONS;Commons Collections;843
+COMPRESS;Commons Compress;725
+CONFIGURATION;Commons Configuration;854
 CRYPTO;Commons Crypto;170
-CSV;Commons CSV;326
-DAEMON;Commons Daemon;477
-DBCP;Commons DBCP;590
+CSV;Commons CSV;328
+DAEMON;Commons Daemon;479
+DBCP;Commons DBCP;591
 DBUTILS;Commons DbUtils;152
-DIGESTER;Commons Digester;198
+DIGESTER;Commons Digester;200
 DISCOVERY;Commons Discovery;21
 DORMANT;Commons Dormant;53
 EL;Commons EL;20
 EMAIL;Commons Email;207
-EXEC;Commons Exec;124
+EXEC;Commons Exec;125
 FEEDPARSER;Commons FeedParser;9
 FILEUPLOAD;Commons FileUpload;364
 FUNCTOR;Commons Functor (Dormant);31
-GEOMETRY;Commons Geometry;150
-IMAGING;Commons Imaging;381
-IO;Commons IO;877
+GEOMETRY;Commons Geometry;151
+IMAGING;Commons Imaging;388
+IO;Commons IO;881
 JCI;Commons JCI;79
-JCS;Commons JCS;246
+JCS;Commons JCS;247
 JELLY;Commons Jelly;291
-JEXL;Commons JEXL;463
-JXPATH;Commons JXPath;204
-LANG;Commons Lang;1788
+JEXL;Commons JEXL;471
+JXPATH;Commons JXPath;206
+LANG;Commons Lang;1798
 LAUNCHER;Commons Launcher;12
-LOGGING;Commons Logging;195
-MATH;Commons Math;1681
+LOGGING;Commons Logging;196
+MATH;Commons Math;1685
 MODELER;Commons Modeler;32
-NET;Commons Net;734
-NUMBERS;Commons Numbers;205
+NET;Commons Net;737
+NUMBERS;Commons Numbers;216
 OGNL;Commons OGNL (Dormant);261
-POOL;Commons Pool;411
+POOL;Commons Pool;412
 PRIMITIVES;Commons Primitives;13
 PROXY;Commons Proxy;28
 RESOURCES;Commons Resources;41
-RNG;Commons RNG;191
+RNG;Commons RNG;201
 SANDBOX;Commons Sandbox;266
 SANSELAN;Commons Sanselan;0
 SCXML;Commons SCXML;289
-STATISTICS;Commons Statistics;82
-TEXT;Commons Text;230
+STATISTICS;Commons Statistics;89
+TEXT;Commons Text;233
 TRANSACTION;Commons Transaction;42
-VALIDATOR;Commons Validator;507
-VFS;Commons VFS;858
+VALIDATOR;Commons Validator;509
+VFS;Commons VFS;862
 WEAVER;Commons Weaver;27
-COMDEV;Community Development;299
+COMDEV;Community Development;300
 CONTINUUM;Continuum;2724
 COR;Corinthia;53
 COTTON;COTTON;15
@@ -246,27 +246,27 @@ COUCHDB;CouchDB;3420
 CRUNCH;Crunch (Retired);697
 CTAKES;cTAKES;566
 CUSTOS;Custos Security;0
-CXF;CXF;9113
+CXF;CXF;9147
 DOSGI;CXF Distributed OSGi (Retired);278
-CXFXJC;CXF XJC Utils;50
+CXFXJC;CXF XJC Utils;54
 FEDIZ;CXF-Fediz;256
-DAFFODIL;Daffodil;3047
-DATAFU;DataFu;184
+DAFFODIL;Daffodil;3064
+DATAFU;DataFu;188
 DAYTRADER;DayTrader;92
 DDLUTILS;DdlUtils;289
 DTACLOUD;DeltaCloud;587
-DELTASPIKE;DeltaSpike;1485
+DELTASPIKE;DeltaSpike;1486
 DEPOT;Depot;2
 DERBY;Derby (Retired);7169
 DMAP;DeviceMap;204
 DIR;Directory;229
 DIRSERVER;Directory ApacheDS;2340
-DIRAPI;Directory Client API;407
+DIRAPI;Directory Client API;468
 DIRGROOVY;Directory Groovy LDAP;9
 DIRKRB;Directory Kerberos;769
 DIRNAMING;Directory Naming;15
 DIRSHARED;Directory Shared (Please use DIRAPI instead);120
-DIRSTUDIO;Directory Studio;1331
+DIRSTUDIO;Directory Studio;1332
 DL;DistributedLog;213
 DI;Diversity and Inclusion;36
 DBF;DocBook Framework;13
@@ -276,7 +276,7 @@ EAGLE;Eagle (Retired);1097
 EASYANT;EasyAnt;75
 ECS;ECS;4
 EDGENT;Edgent (Retired);450
-EMPIREDB;Empire-DB;493
+EMPIREDB;Empire-DB;496
 ESME;Enterprise Social Messaging Environment (ESME);373
 ESCIMO;eSCIMo ;2
 ETCH;Etch;295
@@ -284,67 +284,67 @@ EWS;ews;8
 EXLBR;Excalibur Components;52
 FORTRESS;Excalibur Fortress;23
 FALCON;Falcon;2343
-FELIX;Felix;6741
+FELIX;Felix;6767
 FINCN;Fineract Cloud Native;353
 FLAGON;Flagon;460
-FLINK;Flink;40007
+FLINK;Flink;41199
 FLUME;Flume;3458
-FOP;FOP;3320
+FOP;FOP;3359
 FOR;Forrest (Retired);1251
 FC;FORTRESS;336
 FTPSERVER;FtpServer;516
 GAVTESTY;Gav Testing;1
 GBUILD;GBuild;26
-GEODE;Geode;10568
-GERONIMO;Geronimo;6781
+GEODE;Geode;10664
+GERONIMO;Geronimo;6808
 GERONIMODEVTOOLS;Geronimo-Devtools;806
 GIRAPH;Giraph (Retired);1255
 GOSSIP;Gossip;101
 GRFT;Graffito;110
 GRIFFIN;Griffin (Retired);380
-GROOVY;Groovy;11873
+GROOVY;Groovy;12289
 GSHELL;GShell;156
-GUACAMOLE;Guacamole;2286
+GUACAMOLE;Guacamole;2338
 GUMP;Gump;170
-HADOOP;Hadoop Common;17606
+HADOOP;Hadoop Common;17713
 HDT;Hadoop Development Tools;63
-HDFS;Hadoop HDFS;17088
-MAPREDUCE;Hadoop Map/Reduce;7214
-YARN;Hadoop YARN;11674
+HDFS;Hadoop HDFS;17154
+MAPREDUCE;Hadoop Map/Reduce;7224
+YARN;Hadoop YARN;11752
 HAMA;Hama;1006
 HARMONY;Harmony;6676
-HBASE;HBase;30036
+HBASE;HBase;30264
 HCATALOG;HCatalog;649
 HERALDRY;Heraldry;5
 HISE;HISE;103
-HIVE;Hive;29564
+HIVE;Hive;29934
 HIVEMALL;Hivemall;318
 HIVEMIND;HiveMind;213
 HTRACE;HTrace;402
 HTTPASYNC;HttpComponents HttpAsyncClient;138
-HTTPCLIENT;HttpComponents HttpClient;2334
-HTTPCORE;HttpComponents HttpCore;771
+HTTPCLIENT;HttpComponents HttpClient;2343
+HTTPCORE;HttpComponents HttpCore;777
 IBATISNET;iBatis for .NET;301
 IBATIS;iBatis for Java [READ ONLY];777
 RBATIS;iBATIS for Ruby;2
-IGNITE;Ignite;28782
-IMPALA;IMPALA;15100
+IGNITE;Ignite;29151
+IMPALA;IMPALA;15656
 IMPERIUS;Imperius;34
-INCUBATOR;Incubator;277
+INCUBATOR;Incubator;279
 INFRATESTY2;Infra test 2;0
 INFRATESTY33;Infra Testy 33;1
-INFRA;Infrastructure;27900
+INFRA;Infrastructure;28412
 IOTA;Iota (Retired);43
-IVY;Ivy;1658
+IVY;Ivy;1663
 IVYDE;IvyDE (Retired);388
-JCR;Jackrabbit Content Repository;5108
-JCRVLT;Jackrabbit FileVault;840
+JCR;Jackrabbit Content Repository;5124
+JCRVLT;Jackrabbit FileVault;865
 JCRBENCH;Jackrabbit JCR Benchmark;3
 JCRCL;Jackrabbit JCR Classloader;3
 JCRSERVLET;Jackrabbit JCR Servlets;6
 JCRTCK;Jackrabbit JCR Tests;19
 JCRRMI;Jackrabbit JCR-RMI;34
-OAK;Jackrabbit Oak;12230
+OAK;Jackrabbit Oak;12430
 OCM;Jackrabbit OCM;72
 JCRSITE;Jackrabbit Site;57
 HUPA;James Hupa;117
@@ -354,47 +354,47 @@ JSIEVE;James jSieve;115
 JSPF;James jSPF;115
 MAILBOX;James Mailbox;408
 MAILET;James Mailet;170
-MIME4J;James Mime4j;332
+MIME4J;James Mime4j;333
 MPT;James MPT;44
 POSTAGE;James Postage;25
 PROTOCOLS;James Protocols;120
-JAMES;James Server;4136
+JAMES;James Server;4160
 JAXME;JaxMe;106
 JCLOUDS;jclouds (Retired) (Retired);1643
 JDO;JDO;855
 JS1;Jetspeed (Retired);570
 JS2;Jetspeed 2 (Retired);1355
-JOHNZON;Johnzon;430
+JOHNZON;Johnzon;443
 JOSHUA;Joshua (Retired);346
 JSEC;JSecurity;0
-JSPWIKI;JSPWiki;1145
+JSPWIKI;JSPWiki;1158
 JUDDI;jUDDI (Retired);1018
 JUNEAU;Juneau;263
-KAFKA;Kafka;19477
+KAFKA;Kafka;20091
 KALUMET;Kalumet (Retired);56
 KAND;Kandula;10
 KARAF;Karaf;7804
 KATO;Kato;16
 KI;Ki;1
 KITTY;Kitty (Retired);34
-KUDU;Kudu;3638
-KYLIN;Kylin;5929
+KUDU;Kudu;3667
+KYLIN;Kylin;5958
 LABS;Labs (Retired);352
 HTTPDRAFT;Labs WebArch draft-fielding-http (Retired);95
-LEGAL;Legal Discuss;722
+LEGAL;Legal Discuss;729
 LIBCLOUD;Libcloud;1045
-LIVY;Livy;958
+LIVY;Livy;993
 LOGCXX;Log4cxx;559
 LOG4J2;Log4j 2;3675
 LOG4NET;Log4net;693
 LOG4PHP;Log4php;244
 LOKAHI;Lokahi;8
-LUCENE;Lucene - Core;10630
+LUCENE;Lucene - Core;10629
 LUCENENET;Lucene.Net;651
 LCN4C;Lucene4c;10
 LUCY;Lucy;320
 MAHOUT;Mahout;2198
-CONNECTORS;ManifoldCF;1782
+CONNECTORS;ManifoldCF;1786
 MARMOTTA;Marmotta (Retired);680
 MNG;Maven (Moved to GitHub Issues);7386
 MACR;Maven ACR Plugin (Moved to GitHub Issues);57
@@ -459,19 +459,19 @@ MSITE;Maven Site Plugin (Moved to GitHub Issues);921
 MSKINS;Maven Skins (Moved to GitHub Issues);252
 MSOURCES;Maven Source Plugin (Moved to GitHub Issues);143
 MSTAGE;Maven Stage Plugin (Moved to GitHub Issues);29
-SUREFIRE;Maven Surefire (Moved to GitHub Issues);2282
+SUREFIRE;Maven Surefire (Moved to GitHub Issues);2281
 MTOOLCHAINS;Maven Toolchains Plugin (Moved to GitHub Issues);60
 MVERIFIER;Maven Verifier Plugin (Moved to GitHub Issues);40
 WAGON;Maven Wagon (Moved to GitHub Issues);614
 MWAR;Maven WAR Plugin (Moved to GitHub Issues);456
 MWRAPPER;Maven Wrapper (Moved to GitHub Issues);158
 MAVIBOT;Mavibot;49
-MEECROWAVE;Meecrowave;345
+MEECROWAVE;Meecrowave;348
 MESOS;Mesos (Retired);10207
 METRON;Metron (Retired);2349
 MILAGRO;Milagro (Retired);38
-DIRMINA;MINA;1156
-SSHD;MINA SSHD;1351
+DIRMINA;MINA;1162
+SSHD;MINA SSHD;1352
 MIRAE;Mirae;8
 MNEMONIC;Mnemonic (Retired);839
 MODPYTHON;mod_python;256
@@ -482,14 +482,14 @@ MXNETTEST;MxNet Test;0
 ADFFACES;MyFaces ADF-Faces;0
 EXTCDI;MyFaces CODI;317
 MFCOMMONS;MyFaces Commons;46
-MYFACES;MyFaces Core;4385
+MYFACES;MyFaces Core;4398
 EXTSCRIPT;MyFaces Extensions Scripting;190
 EXTVAL;MyFaces Extensions Validator;161
 MFHTML5;MyFaces HTML5 Component Library;21
 ORCHESTRA;MyFaces Orchestra;67
 PORTLETBRIDGE;MyFaces Portlet Bridge;235
 MYFACESTEST;MyFaces Test;72
-TOBAGO;MyFaces Tobago;2520
+TOBAGO;MyFaces Tobago;2547
 TOMAHAWK;MyFaces Tomahawk;1684
 TRINIDAD;MyFaces Trinidad;2561
 MYNEWT;Mynewt;789
@@ -497,18 +497,18 @@ MYNEWTDOC;MyNewt Docs;73
 MYRIAD;Myriad;325
 NEETHI;Neethi;23
 NETBEANS;NetBeans;6305
-NIP;NiFi Improvement Proposal;32
+NIP;NiFi Improvement Proposal;45
 NIFIREG;NiFi Registry - MOVED TO NIFI PROJECT;327
 NIFILIBS;NiFi Standard Libraries;4
 NLPCRAFT;NLPCraft (Retired);526
 NPANDAY;NPanday (Retired);634
-NUTCH;Nutch;3171
+NUTCH;Nutch;3206
 NUVEM;Nuvem;24
 ODE;ODE;1078
 JACOB;ODE JaCOb;9
 OWC;ODE Web Console;6
 ODFTOOLKIT;ODF Toolkit;479
-OFBIZ;OFBiz;13442
+OFBIZ;OFBiz;13754
 OJB;OJB;144
 OLINGO;Olingo (Retired);1646
 OLIO;Olio;154
@@ -517,23 +517,23 @@ OOZIE;Oozie (Retired);3727
 ORP;Open Relevance Project ;13
 OPENEJB;OpenEJB;2047
 OEP;OpenEJB Eclipse Plugin;37
-OPENJPA;OpenJPA;2944
-OPENMEETINGS;Openmeetings;2821
-OPENNLP;OpenNLP;1829
-OPENOFFICE;OpenOffice;202
-OWB;OpenWebBeans;1456
-ORC;ORC;2181
+OPENJPA;OpenJPA;3045
+OPENMEETINGS;Openmeetings;2844
+OPENNLP;OpenNLP;1950
+OPENOFFICE;OpenOffice;185
+OWB;OpenWebBeans;1466
+ORC;ORC;2233
 PARQUET;Parquet;2485
-PDFBOX;PDFBox;6206
-PHOENIX;Phoenix;7914
+PDFBOX;PDFBox;6284
+PHOENIX;Phoenix;7995
 OMID;Phoenix Omid;322
 TEPHRA;Phoenix Tephra;314
 PHOTARK;PhotArk;96
-PIG;Pig;5397
+PIG;Pig;5398
 PIRK;PIRK;81
 PIVOT;Pivot (Retired);1042
 PLUTO;Pluto (Retired);805
-PODLINGNAMESEARCH;Podling Suitable Names Search;246
+PODLINGNAMESEARCH;Podling Suitable Names Search;254
 POLYGENE;Polygene;311
 PORTALS;Portals (Retired);27
 APA;Portals Apps (Retired);81
@@ -544,14 +544,14 @@ PRC;Public Relations;23
 HERMES;Pubscribe;16
 PULSAR;Pulsar (Retired);24
 PYLUCENE;PyLucene;71
-QPID;Qpid;8637
+QPID;Qpid;8685
 DISPATCH;Qpid Dispatch (Retired);2371
-QPIDJMS;Qpid JMS;618
-PROTON;Qpid Proton;2928
-RAMPART;Rampart;451
+QPIDJMS;Qpid JMS;629
+PROTON;Qpid Proton;2986
+RAMPART;Rampart;455
 RAMPARTC;Rampart/C;159
-RANGER;Ranger;5654
-RATIS;Ratis;2563
+RANGER;Ranger;5852
+RATIS;Ratis;2759
 RAVE;Rave;1286
 REEF;REEF (Retired);2066
 RIVER;River (Retired);470
@@ -562,29 +562,29 @@ SAMZA;Samza;2803
 SAND;Sandesha;17
 SANDESHA2;Sandesha2;216
 SANDESHA2C;Sandesha2/C;75
-SANTUARIO;Santuario;629
+SANTUARIO;Santuario;632
 SAVAN;Savan;13
 SCOUT;Scout (Retired);138
 TESTTTTT;sdfsdfsdf;0
 SENTRY;Sentry (Retired);2564
 SERF;serf;207
-SM;ServiceMix;5153
-SMX4;ServiceMix 4;1905
-SMXCOMP;ServiceMix Components;986
-SMX4KNL;ServiceMix Kernel;269
-SMX4NMR;ServiceMix NMR;318
+SM;ServiceMix (Retired);5154
+SMX4;ServiceMix 4 (Retired);1905
+SMXCOMP;ServiceMix Components (Retired);986
+SMX4KNL;ServiceMix Kernel (Retired);269
+SMX4NMR;ServiceMix NMR (Retired);318
 SHALE;Shale;497
 SHINDIG;Shindig;1979
 SHIRO;Shiro;904
-CASSSIDECAR;Sidecar for Apache Cassandra;478
+CASSSIDECAR;Sidecar for Apache Cassandra;508
 SINGA;Singa;572
 SIRONA;Sirona (Retired);65
 SLIDER;Slider (Retired);1265
-SLING;Sling;13216
+SLING;Sling;13366
 SOAP;SOAP;173
-SOLR;Solr;18116
-SPARK;Spark;57504
-SIS;Spatial Information Systems;635
+SOLR;Solr;18416
+SPARK;Spark;60193
+SIS;Spatial Information Systems;639
 SPOT;Spot (Retired);309
 SQOOP;Sqoop (Retired);3152
 STANBOL;Stanbol (Retired);1473
@@ -595,24 +595,24 @@ STRATOS;Stratos;1662
 STREAMPIPES;StreamPipes;640
 STREAMS;Streams (Retired) (Retired);683
 STR;Struts 1;3009
-WW;Struts 2;5569
+WW;Struts 2;5749
 SB;Struts Sandbox;22
 SITE;Struts Shared Resources;22
 SVN;Subversion;4558
 SUPERSET;Superset;16
 SYNAPSE;Synapse;1129
-SYNCOPE;Syncope;1975
-SYSTEMDS;SystemDS;3804
+SYNCOPE;Syncope;1997
+SYSTEMDS;SystemDS;3839
 TAJO;Tajo (Retired);2183
 TAMAYA;Tamaya;414
 TAPESTRY;Tapestry;2499
-TAP5;Tapestry 5;2832
+TAP5;Tapestry 5;2840
 TASHI;Tashi (Retired);28
 TST;Test Project;61
 TEXEN;Texen;19
 MMETRIC;The Maven Metric Extension;1
-THRIFT;Thrift;6071
-TIKA;Tika;4764
+THRIFT;Thrift;6457
+TIKA;Tika;5001
 TILES;Tiles;578
 AUTOTAG;Tiles Autotag;24
 TEVAL;Tiles Eval;1
@@ -620,10 +620,10 @@ TREQ;Tiles Request;21
 TILESSB;Tiles Sandbox;10
 TILESSHARED;Tiles Shared Resources;21
 TILESSHOW;Tiles Showcase;15
-TINKERPOP;TinkerPop;3262
-TOMEE;TomEE;4176
+TINKERPOP;TinkerPop;3301
+TOMEE;TomEE;4274
 TATPI;TomEE Arquillian Test Porting Initiative;5
-TOREE;TOREE;573
+TOREE;TOREE;576
 TORQUE;Torque;375
 TORQUEOLD;Torque issues (old);378
 BRAND;Trademarks Committee;13
@@ -638,39 +638,39 @@ TUWENI;Tuweni (Retired);32
 UIMA;UIMA;6481
 USERGRID;Usergrid (Retired);1341
 VCL;VCL;1139
-VELOCITY;Velocity;928
+VELOCITY;Velocity;935
 VELOCITYSB;Velocity Sandbox;9
-VELTOOLS;Velocity Tools;215
+VELTOOLS;Velocity Tools;216
 VXQUERY;VXQuery (Retired);244
 VYSPER;VYSPER;350
 WADI;WADI;11
 WAVE;Wave;446
 WEEX;Weex (Retired);681
 WHIMSY;Whimsy;424
-WICKET;Wicket;7178
+WICKET;Wicket;7196
 WINK;Wink;439
 WODEN;Woden;244
 WOOKIE;Wookie;425
 WSCOMMONS;WS-Commons;197
 APOLLO;WSRF;51
 WSRP4J;WSRP4J;109
-WSS;WSS4J;719
+WSS;WSS4J;727
 ASFSITE;www.apache.org website;24
 XALANC;XalanC;815
-XALANJ;XalanJ2;2844
+XALANJ;XalanJ2;2847
 XAP;XAP;589
-XBEAN;XBean;335
-XERCESC;Xerces-C++;2258
+XBEAN;XBean;344
+XERCESC;Xerces-C++;2263
 XERCESP;Xerces-P;55
-XERCESJ;Xerces2-J;1787
+XERCESJ;Xerces2-J;1789
 XMLCOMMONS;XML Commons;97
 XMLRPC;XML-RPC;193
-XMLBEANS;XMLBeans;668
-XGC;XMLGraphicsCommons;145
+XMLBEANS;XMLBeans;676
+XGC;XMLGraphicsCommons;146
 XMLSCHEMA;XmlSchema;70
 XW;XWork;1128
-YETUS;Yetus;1261
+YETUS;Yetus;1262
 YOKO;Yoko - CORBA Server;473
-ZEPPELIN;Zeppelin;6485
+ZEPPELIN;Zeppelin;6750
 ZETACOMP;Zeta Components (Retired);123
-ZOOKEEPER;ZooKeeper;4869
+ZOOKEEPER;ZooKeeper;4919

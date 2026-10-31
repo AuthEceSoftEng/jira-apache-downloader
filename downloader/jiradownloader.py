@@ -59,24 +59,26 @@ class JiraDownloader:
 		:param headers: the headers of the request.
 		:returns: the response of the request.
 		"""
-		for _ in range(3):
+		# Build the query string and headers once, outside the retry loop (rebuilding them
+		# inside the loop would corrupt them on the second attempt).
+		querystring = ('?' + '&'.join(parameters)) if parameters else ""
+		reserved_keywords = ["EXEC", "TRANSACTION", "FOR"] # these project names are jql reserved keywords so they must be escaped
+		for keyword in reserved_keywords:
+			querystring = re.sub("project=" + keyword + "\\b", "project='" + keyword + "'", querystring)
+		requestheaders = {headers.split(':')[0].strip() : headers.split(':')[1].strip()} if headers else {}
+		r = None
+		for attempt in range(5):
 			try:
-				if parameters:
-					parameters = '?' + '&'.join(parameters)
-				else:
-					parameters = ""
-				if headers:
-					headers = {headers.split(':')[0].strip() : headers.split(':')[1].strip()}
-				else:
-					headers = {}
-				reserved_keywords = ["EXEC", "TRANSACTION", "FOR"] # these project names are jql reserved keywords so they must be escaped
-				for keyword in reserved_keywords:
-					parameters = re.sub("project=" + keyword + "\\b", "project='" + keyword + "'", parameters)
-				r = requests.get(address + parameters, headers = headers, auth = self.credentials)
+				r = requests.get(address + querystring, headers = requestheaders, auth = self.credentials, timeout = 120)
 				self.wait_after_request()
+				if r.status_code == 429 or r.status_code >= 500:
+					# transient server-side error / throttling: back off and retry (30s, 60s, 90s, ...)
+					time.sleep(30 * (attempt + 1))
+					continue
 				return r
-			except TimeoutError:
-				return None
+			except (TimeoutError, requests.exceptions.RequestException):
+				time.sleep(30 * (attempt + 1))
+		return r
 
 	def download_object(self, address, parameters = None, per_page=50):
 		"""

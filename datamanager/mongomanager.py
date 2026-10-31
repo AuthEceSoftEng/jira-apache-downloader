@@ -2,7 +2,7 @@ import pymongo
 from datamanager.project import Project
 from datamanager.filemanager import FileManager
 from datamanager.databasemanager import DatabaseManager
-from properties import always_write_to_disk, database_host_and_port
+from properties import always_write_to_disk, database_host_and_port, database_name
 from bson import json_util
 from pymongo.errors import DocumentTooLarge
 from helpers import get_size_of_json_object_in_KB
@@ -24,7 +24,7 @@ class MongoDBManager(DatabaseManager, FileManager):
 		Creates a new client connection.
 		"""
 		self.client = pymongo.MongoClient(database_host_and_port)
-		self.db = self.client["jidata"]
+		self.db = self.client[database_name]
 		self.projects = self.db["projects"]
 		self.issues = self.db["issues"]
 		self.users = self.db["users"]
